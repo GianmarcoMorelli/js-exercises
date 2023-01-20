@@ -33,9 +33,28 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0;
+    border-radius: 3vh;
+    width: 10vw;
+    height: 10vh;
 }
 
 img{
-    width: 10vw;
-    height: 10 vh;
+    position: relative;  
+    margin: auto;
+}
+
+.rock{
+    background: url(https://images.unsplash.com/photo-1584715642381-6f1c4b452b1c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) no-repeat top center;
+    background-size: 10vw 10vh;
+}
+
+.paper{
+    background: url(https://images.unsplash.com/photo-1597338770339-9860acd8406e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHBhcGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60) no-repeat top center;
+    background-size: 10vw 10vh;
+}
+
+.scissors{
+    background: url(https://images.unsplash.com/photo-1503792501406-2c40da09e1e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2Npc3NvcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60) no-repeat top center;
+    background-size: 10vw 10vh;
 }

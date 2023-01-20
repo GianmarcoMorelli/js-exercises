@@ -57,11 +57,19 @@ function game(){
 
         console.log("pCounter: " + pCounter + ", cCounter: " + cCounter + ", dCounter: " + dCounter);
         if(pCounter == 5){
-            alert("Player Won");
-            return "The Player Won";
+            buttonRock.disabled = true;
+            buttonPaper.disabled = true;
+            buttonScissors.disabled = true;
+            currentResult.innerHTML = "Final Count --> Player score: " + pCounter + ", Computer score: " + cCounter + ", Draw results: " + dCounter;
+            alert("Player Won!");
+            return;
         }else if(cCounter == 5){
-            alert("Computer Won");
-            return "The Computer Won";
+            buttonRock.disabled = true;
+            buttonPaper.disabled = true;
+            buttonScissors.disabled = true;
+            currentResult.innerHTML = "Final Count --> Player score: " + pCounter + ", Computer score: " + cCounter + ", Draw results: " + dCounter;
+            alert("Computer Won!")
+            return;
         }else{
             console.log("Actual Count --> pCounter: " + pCounter + ", cCounter: " + cCounter + ", dCounter: " + dCounter);
             currentResult.innerHTML = "Actual Count --> Player score: " + pCounter + ", Computer score: " + cCounter + ", Draw results: " + dCounter;
@@ -82,11 +90,19 @@ function game(){
 
         console.log("pCounter: " + pCounter + ", cCounter: " + cCounter + ", dCounter: " + dCounter);
         if(pCounter == 5){
-            alert("Player Won");
-            return "The Player Won";
+            buttonRock.disabled = true;
+            buttonPaper.disabled = true;
+            buttonScissors.disabled = true;
+            currentResult.innerHTML = "Final Count --> Player score: " + pCounter + ", Computer score: " + cCounter + ", Draw results: " + dCounter;
+            alert("Player Won!");
+            return;
         }else if(cCounter == 5){
-            alert("Computer Won");
-            return "The Computer Won";
+            buttonRock.disabled = true;
+            buttonPaper.disabled = true;
+            buttonScissors.disabled = true;
+            currentResult.innerHTML = "Final Count --> Player score: " + pCounter + ", Computer score: " + cCounter + ", Draw results: " + dCounter;
+            alert("Computer Won!");
+            return;
         }else{
             console.log("Actual Count --> pCounter: " + pCounter + ", cCounter: " + cCounter + ", dCounter: " + dCounter);
             currentResult.innerHTML = "Actual Count --> Player score: " + pCounter + ", Computer score: " + cCounter + ", Draw results: " + dCounter;
@@ -111,13 +127,15 @@ function game(){
             buttonPaper.disabled = true;
             buttonScissors.disabled = true;
             currentResult.innerHTML = "Final Count --> Player score: " + pCounter + ", Computer score: " + cCounter + ", Draw results: " + dCounter;
-            return "The Player Won";
+            alert("Player Won!");
+            return;
         }else if(cCounter == 5){
             buttonRock.disabled = true;
             buttonPaper.disabled = true;
             buttonScissors.disabled = true;
             currentResult.innerHTML = "Final Count --> Player score: " + pCounter + ", Computer score: " + cCounter + ", Draw results: " + dCounter;
-            return "The Computer Won";
+            alert("Computer Won!");
+            return;
         }else{
             console.log("Actual Count --> pCounter: " + pCounter + ", cCounter: " + cCounter + ", dCounter: " + dCounter);
             currentResult.innerHTML = "Actual Count --> Player score: " + pCounter + ", Computer score: " + cCounter + ", Draw results: " + dCounter;
